@@ -1,0 +1,102 @@
+/* --- Variables --- */
+
+/* --- Main styles --- */
+
+h1, h2, h3{
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+
+nav.main-nav ul{
+    width: 600px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav a{
+    color: #685533;
+    text-decoration: none;
+}
+
+.banner{
+    background: #76a015;
+    color: #f0e9e9;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 100px 0 160px;
+}
+
+.content{
+    width: 760px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px; 
+    padding: 40px 60px;
+    background: #d3d0d0
+}
+
+.spot{
+    margin: 0 40px 80px;
+    text-align: center;
+}
+
+.spot h2{
+    color:#76a015;
+}
+
+.spot p{
+    color: #333;
+    line-height: 2em;
+    font-size: 0.9em
+}
+
+.content a{
+    color: #3a301e;
+    font-size: 1.2em;
+}
+
+footer{
+    background: #807171;
+    padding: 60px 0
+}
+
+footer .blurbs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 760px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+footer .blurb{
+    text-align: center;
+    color: #333;
+    line-height: 2em;
+    font-size: 0.9em
+}
+
+h2:hover{
+ color: rgb(95, 77, 143);
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px){
+    footer .blurbs{
+        display: grid;
+        grid-template-columns:1fr;
+        max-width: 100%;
+    }
+    
+
+}
